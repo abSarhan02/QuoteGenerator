@@ -1,0 +1,132 @@
+/** RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/** RESET */
+
+/** BODY */
+body {
+    background-color: cornflowerblue;
+    font-family: system-ui, -apple-system;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: 0.3s;
+}
+/** BODY */
+
+/** HEADER */
+header {
+    margin-bottom: 3rem;
+    color: white;
+}
+/**HEADER */
+
+/** CONTAINER */
+.container {
+    width: 35rem;
+    padding: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 1rem;
+    margin: auto;
+}
+/** CONTAINER */
+
+/** QUOTE TEXT */
+.quote {
+    text-align: center;
+    color: #555555;
+    border-radius:1rem;
+}
+/** QUOTE TEXT */
+
+/** AUTHOR TEXT */
+.author {
+    margin: 1rem 0rem;
+    text-align: end;
+    color: cornflowerblue;
+    transition: 0.3s;
+}
+/** AUTHOR TEXT */
+
+/** QUOTE ELEMENT */
+q {
+    font-size: large;
+}
+/** QUOTE ELEMENT */
+
+/** BUTTON */
+#btn {
+    background-color: cornflowerblue;
+    border: none;
+    border-radius: 0.5rem;
+    color: white;
+    font-size: large;
+    font-weight: 700;
+    padding: 0.8rem;
+    transition: 0.3s;
+}
+#btn:hover {
+    background-color: rgb(53, 124, 254);
+    scale: 1.02;
+    cursor: pointer;
+}
+/** BUTTON */
+
+/** BUTTON CONTAINER */
+.btn-cont {
+    margin: auto;
+}
+/** BUTTON CONTAINER */
+
+/** COLOR BUTTONS */
+.clr-btn {
+    width: fit-content;
+    margin-left: auto;
+    padding: 0.5rem;
+    border-radius: 50%;
+    border: 0.2rem white solid;
+    cursor: pointer;
+}
+/** COLOR BUTTONS */
+
+/** SPECIFIC COLOR BUTTONS */
+#color-button {
+    background-color: darksalmon;
+}
+
+#color-button2 {
+    background-color: rgb(126, 236, 126);
+}
+
+#color-button3 {
+    background-color: cornflowerblue;
+}
+/** SPECIFIC COLOR BUTTONS */
+
+/** COLOR BUTTONS CONTAINER */
+.colors{
+    text-align: end;
+    margin-right: 0.5rem;
+}
+/** COLOR BUTTONS CONTAINER */
+
+/** MEDIA*/
+/** Small screens (max-width: 576px) */
+@media (max-width: 576px) {
+    .container {
+        width: 19.5rem;
+        padding: 1.25rem;
+        display: flex;
+        flex-direction: column;
+        background-color: aliceblue;
+        border-radius: 1rem;
+        margin: auto;
+    }
+}
